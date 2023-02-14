@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SVG Sprites</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Секция Work ==================================== -->
+	<section class="work">
+		<div class="container">
+			<h1>Как это работает?</h1>
+			<ul class="group">
+				<li class="cards">
+					<svg style="width: 375px; height: 288px;">
+						<use xlink:href="svg/sprite_card.svg#card-1"></use>
+					</svg>
+					<h3>Утренний <span>кофе</span></h3>
+					<p>Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее
+						просыпаемся.
+					</p>
+				</li>
+				<li class="cards">
+					<svg style="width: 375px; height: 288px;">
+						<use xlink:href="svg/sprite_card.svg#card-2"></use>
+					</svg>
+					<h3>Час <span>медитации</span></h3>
+					<p>После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.
+					</p>
+				</li>
+				<li class="cards">
+					<svg style="width: 375px; height: 288px;">
+						<use xlink:href="svg/sprite_card.svg#card-3"></use>
+					</svg>
+					<h3>Вперёд к <span>свершениям!</span></h3>
+					<p>Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Секция Servic ==================================== -->
+	<section class="service">
+		<div class="container">
+			<div class="block">
+				<div class="block__left">
+					<h2>Интеграция со сторонними сервисами</h2>
+					<p>Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего
+						дня, контролировать свои задачи и не опоздать на запланированные встречи.</p>
+				</div>
+				<div class="block-right">
+					<div class="block__social">
+						<div class="block__social-top">
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#facebook"></use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#trello"></use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#worklio"></use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#dropbox"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="block__social-bottom">
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#google"></use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#trello-plain"></use>
+								</svg>
+							</a>
+							<a href="#">
+								<svg style="width: 70px; height: 70px;">
+									<use xlink:href="svg/sprite_social.svg#slack"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
