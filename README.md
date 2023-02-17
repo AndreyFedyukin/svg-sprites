@@ -1,6 +1,6 @@
 # svg_Sprites
 
-##### Ссылка на макет https://andreyfedyukin.github.io/02_svg_Sprites/
+##### Ссылка на макет https://andreyfedyukin.github.io/svg_Sprites/
 
 ___
 
